@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Finder</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Recipe Finder</h1>
+        <p>Enter the ingredients you have in the input field below (comma separated) and click the "Search" button to find recipes. For example, you can try entering "chicken, tomato, onion".</p>
+        <div class="search-container">
+            <input type="text" id="ingredientInput" placeholder="Enter ingredients (comma separated)">
+            <button onclick="searchRecipes()">Search</button>
+        </div>
+        <div id="recipeContainer" class="recipe-container"></div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
